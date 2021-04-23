@@ -1,3 +1,8 @@
+# sass-projects
+
+## Bu repo, sass öğrenirken çok faydalı bulduğum frontendaily sitesindeki templateleri uygulayarak sass bilgimizi geliştirmeye yöneliktir.
+
+
 ```javascript
 
 // Install Dependencies
@@ -9,4 +14,4 @@
 ```
 
 
-## [Demo](https://cihat.github.io/fashion-blog/)
+## [Demo](https://cihat.github.io/sass-work/)
