@@ -1,0 +1,89 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sass Template</title>
+  <!-- reset.css -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <!-- global.css -->
+  <!-- <link rel="stylesheet" href="css/global.css" /> -->
+  <!-- main.css -->
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- other-devices.css -->
+  <!-- <link rel="stylesheet" media="(max-width: 1170px)" href="css/other-devices.css" /> -->
+  <!-- tablet.css -->
+  <!-- <link rel="stylesheet" media="(max-width: 768px)" href="css/tablet.css" /> -->
+  <!-- mobile.css -->
+  <!-- <link rel="stylesheet" media="(max-width: 500px)" href="css/mobile.css" /> -->
+</head>
+
+<body>
+  <div class="components">
+
+    <div class="component--search">
+      <form action="">
+        <div class="search-icon">
+          <img src="img/search-icon.svg" alt="">
+        </div>
+        <input type="text" placeholder="Starting to search">
+      </form>
+      <h6>Popular searches</h6>
+      <ul>
+        <li>
+          <a href="#">Air Transport</a>
+        </li>
+        <li>
+          <a href="#">Aviation</a>
+        </li>
+        <li class="active">
+          <a href="#">Mekaniske Verksted</a>
+        </li>
+        <li>
+          <a href="#">Port Authority</a>
+        </li>
+        <li>
+          <a href="#">Sporvei</a>
+        </li>
+        <li>
+          <a href="#">Bergens Kreditbank</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="component--filter-search">
+      <form action="">
+        <div class="input">
+          <div class="search-icon">
+            <img src="img/search-icon.svg" alt="">
+          </div>
+          <input type="text" placeholder="Start typing to search">
+        </div>
+        <ul>
+          <li>
+            <label>
+              <input type="radio" checked name="type" value="project">
+              <span class="text">Projects</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="type" value="image">
+              <span class="text">Images</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="type" value="people">
+              <span class="text">People</span>
+            </label>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
