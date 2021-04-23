@@ -14,4 +14,4 @@
 ```
 
 
-## [Demo](https://cihat.github.io/sass-work/)
+## [Demo](https://cihat.github.io/sass-projects/)
