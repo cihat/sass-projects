@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+* {
+  text-decoration: none;
+  -webkit-overflow-scrolling: touch;
+  font-family: "PT Serif", serif; }
+  *:focus {
+    outline: 0; }
+
+body {
+  background: rgba(242, 242, 242, 0.1); }
+
+.projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+  .projects .title {
+    padding: 0.5rem;
+    margin-bottom: 1rem; }
+    .projects .title h1 {
+      font-weight: 700;
+      font-size: 4rem; }
+    .projects .title p {
+      font-size: 1rem; }
+      .projects .title p a {
+        color: rgba(255, 0, 0, 0.9); }
+        .projects .title p a:hover {
+          text-decoration: underline; }
+  .projects ul li {
+    text-decoration: line-through;
+    transition: 400ms text-decoration; }
+    .projects ul li:hover {
+      text-decoration: none; }
+    .projects ul li a {
+      color: rgba(0, 128, 0, 0.8); }
+      .projects ul li a:active {
+        color: black; }

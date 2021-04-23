@@ -1,5 +1,5 @@
 {
-  "name": "fashion-blog",
+  "name": "sass-project-template",
   "version": "1.0.0",
   "description": "```javascript",
   "main": "index.js",
@@ -9,17 +9,9 @@
   "scripts": {
     "scss": "node-sass --watch scss/ -o css/",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cihatdev/fashion-blog.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "cihat",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cihatdev/fashion-blog/issues"
-  },
-  "homepage": "https://github.com/cihatdev/fashion-blog#readme"
+  "bugs": {}
 }
