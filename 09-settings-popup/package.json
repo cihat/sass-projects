@@ -9,6 +9,7 @@
   "scripts": {
     "scss": "node-sass --watch scss/ -o css/",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "repository": {
     "type": "git",
