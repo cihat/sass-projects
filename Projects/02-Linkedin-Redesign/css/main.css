@@ -241,10 +241,7 @@ main .container {
     main .container .sidebar .widget-stats {
       padding: 8px; }
       main .container .sidebar .widget-stats .stat-user {
-        text-align: center;
-        padding-bottom: 1rem;
-        margin-bottom: 1rem;
-        border-bottom: 1px solid #edf0f5; }
+        text-align: center; }
         main .container .sidebar .widget-stats .stat-user .cover {
           height: 43px;
           background: url(../img/cover-bg.png) no-repeat center center;
@@ -293,7 +290,20 @@ main .container {
       color: #17272f;
       padding-bottom: 8px;
       border-bottom: 1px solid #edf0f5;
-      margin-bottom: 8px; }
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      main .container .sidebar .widget-newest h6 .dropdown a {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        font-weight: normal;
+        color: #31b057; }
+        main .container .sidebar .widget-newest h6 .dropdown a i {
+          color: #aaa;
+          font-size: 10px;
+          margin-left: 5px; }
     main .container .sidebar .widget-newest ul:not(:last-child) {
       padding-bottom: 30px; }
     main .container .sidebar .widget-newest ul li a {
@@ -309,6 +319,24 @@ main .container {
         font-size: 11px; }
         main .container .sidebar .widget-newest ul li a i.icon-hash {
           font-size: 12px; }
+    main .container .sidebar .widget-btn {
+      height: 51px;
+      padding: 0 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #17272f; }
+      main .container .sidebar .widget-btn i {
+        color: var(--color); }
+      main .container .sidebar .widget-btn.more {
+        height: 56px;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--color); }
+        main .container .sidebar .widget-btn.more:hover {
+          color: #fff;
+          background: var(--color); }
   main .container .content {
     margin: 0 30px;
     flex: 1; }
